@@ -1,0 +1,50 @@
+
+body {
+  background-color:  #f0ead6;
+	margin: 0 auto;
+	width: 800px;
+	padding: 40px;
+	font-size: 18px;
+
+}
+
+a:link {
+  color: #ff3503;
+  text-decoration: none;
+}
+
+a:visited {
+	color: #ff6943;
+}
+
+
+
+#headshot {
+  float:left;
+  padding-right: 6px;
+}
+
+hr {
+	border-top: 1px solid gray;
+}
+
+#0a3d1e
+
+#toc_container {
+    background:  #f0ead6 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
