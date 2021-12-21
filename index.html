@@ -1,7 +1,60 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
-	<link rel="stylesheet" href="style2.css">
+	<meta charset="utf-8"/>
+
+	<style>
+	style>
+        
+	body {
+	  background-color:  #f0ead6;
+		margin: 0 auto;
+		width: auto;
+		padding-left: 40px;
+		padding-right:40px;
+		font-size: 18px;
+	}
+	
+	body {
+	  background-color:  rgb(36, 34, 34);
+		color:white;
+		margin: 0 auto;
+		width: auto;
+		padding-left: 40px;
+		padding-right:40px;
+		font-size: 18px;
+	}
+	
+	.dark-mode{
+	  background-color: rgb(36, 34, 34);
+	  color:white;
+	}
+	
+	.light-mode{
+		background-color:#f0ead6;
+		color:black;
+	}
+	
+	a:link {
+	  color: #ff3503;
+	  text-decoration: none;
+	}
+	
+	a:visited {
+		color: #ff6943;
+	}
+	
+	
+	
+	
+	hr {
+		border-top: 1px solid gray;
+	}
+	
+	div.right{
+		align:right;
+	}
+			</style>
 </head>
 
 
@@ -13,6 +66,8 @@
 
 <h4>
 	<font size ="+4">Ian Kirby</font>
+	<br>
+	<button onclick="toggleDark()">Toggle dark/light</button>
 	<br>
 	Graduate Student, Harvard University Department of Linguistics
 	<br>
@@ -98,7 +153,7 @@
 
 	<h3>Papers</h3>
 
-	<p>2021.  Exhaustification, free-choice, and additivity: Evidence from Sakha <em>da(γanɨ)</em>.  <em>Proceedings of the Linguistic Society of America</em> 6(1). 663-675. [<a href="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/5005">article, </a> <a href="kirby_lsa2021_slides-transitions.pdf"> slides</a>] </p>
+	<p>2021.  Exhaustification, free-choice, and additivity: Evidence from Sakha <em>da(γanɨ)</em>.  <em>Proceedings of the Linguistic Society of America</em> 6(1). 663-675. [<a href="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/5005">article, </a> <a href="Docs/kirby_lsa2021_slides-transitions.pdf"> slides</a>] </p>
 
 	<p>2020. Sakha <em>da(qany):</em> Negative Polarity, Conjunction, and Focus.  <em>Proceedings of the Workshop on Turkic and Languages in Contact with Turkic 5</em>. 71-85. [<a href="http://journals.linguisticsociety.org/proceedings/index.php/tu/article/view/4769">article</a>]</p>
 
@@ -106,9 +161,9 @@
 
 	<p>"Emphasis and (anti-)additivity in polarity particles: Sakha <em>da(ghany)</em> and <em>emie</em>." Talk at TripleA 8. June 24, 2021. [<a href="https://lingconf.com/triplea8/wp-content/uploads/sites/16/2021/06/handout-kirby.pdf">handout</a>]</p>
 
-	<p>"The Sakha focus particle <em>da(qanɨ)"</em>. Talk at ConCALL-4. April 10, 2021. [<a href="kirby-_concall_handout.pdf">handout</a>]</p>
+	<p>"The Sakha focus particle <em>da(qanɨ)"</em>. Talk at ConCALL-4. April 10, 2021. [<a href="Docs/kirby-_concall_handout.pdf">handout</a>]</p>
 
-	<p>"Where is Additivity?" Talk at the Harvard Linguistics Circle Colloquium. March 5, 2021. [<a href="kirby_2021_where_is_additivity_handout.html">handout</a>]</p>
+	<p>"Where is Additivity?" Talk at the Harvard Linguistics Circle Colloquium. March 5, 2021. [<a href="Docs/kirby_2021_where_is_additivity_handout.pdf">handout</a>]</p>
 
 </section>
 
@@ -124,4 +179,13 @@
 
 
 </body>
+
+
+<script>
+	function toggleDark() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+</script>
+
 </html>
