@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="utf-8">
+
+<head>
+<style>
+	body {
+	  background-color: #3d3d3d;
+	  color:white;
+		margin: 0 auto;
+		width: auto;
+		padding-left: 160px;
+		padding-right:160px;
+		font-size: 18px;
+	}
+	a:link {
+	  color: #ff3503;
+	  text-decoration: none;
+	}
+	
+	a:visited {
+		color: #ff6943;
+	}
+	
+	h2 {
+        padding:5%;
+
+    }
+
+    h3 {
+        padding:7.5%;
+    }
+	
+	
+	hr {
+		border-top: 1px solid gray;
+	}
+	
+	div.right{
+		align:right;
+	}
+
+	type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:rgb(231, 229, 229);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:rgb(231, 229, 229);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+
+
+pre code{
+background-color:white;
+border:4px solid rgb(11, 219, 226);
+display:block;
+overflow-x:auto;
+color:black;
+padding:1.5%;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+    <section id="top"></section>
+
+<div id="console">
+
+    <div id="toc">
+
+        <h1>LaTeX resources</h1>
+
+        <p>Compiled by Ian Kirby (<a href="../../index.html">Site</a>, <a href="https://twitter.com/IanLKirby">Twitter</a>)</p>
+
+        <p>These are some useful linguistics-related LaTeX resources that I've gathered or written over the years.   It's basically the result of googling around for particular typesetting problems that come up, and of course asking my colleagues for help with particular issues.</p>
+
+<hr><hr>
+        Contents:
+    </div>
+<hr><hr>
+
+    <div id="contents">
+
+
+        <h1>1. Macros</h1>
+
+        <p>The code samples below include required packages the macro, then a code sample in below ellipsis.  For each relevant macro and packages, they are bolded.  That is...</p>
+
+        <pre>
+            <code>
+<b>\usepackage{times}</b> <a style="color:blue;"><i>% <------ this goes in the preamble</i></a>
+
+...
+       <a style="color:blue;"><i>% <------ this is where the body begins.</i></a>
+Here is a code sample.
+The <i>times</i> package changes the font to Times New Roman.
+            </code>
+        </pre>
+
+
+        <hr>
+        <br>
+
+
+        <h2>Double brackets</h2>
+
+        <p style="5%;"></p>
+
+<pre> 
+<code>
+<!--     
+    \documentclass{article}
+ -->
+<b>\usepackage{stmaryrd}</b> <a style="color:rgb(86, 84, 219);"><i>%Required for double brackets <\llbracket, \rrbracket)</i></a>
+
+<b>\newcommand{\lf}[1]{$\llbracket$#1$\rrbracket$}</b>
+
+...
+
+    instead of typing <a style="color:red">$\llbracket$</a>X<a style="color:red">$\rrbracket$</a>
+
+    you type <a style="color:red">\lf{</a>X<a style="color:red">}</a>
+            
+</code>
+</pre>
+   
+
+<p>which will produce....</p>
+
+<img src="figures/double-brackets.png" alt="double-brackets.png" style="width:25%;height:25%;">
+
+
+<p>If you would like space between the element in the brackets, change the macro to \newcommand{\lf}[1]{$\llbracket$ #1 $\rrbracket$} (i.e. add a space in the macro)</p>
+
+
+<br><br><br>
+<p style="text-align:right;"><font size=+3><a href="#top">Back to top</a></font></p>
+<hr>
+<br>
+
+<h2>Angled tuple brackets (e.g. for semantic types)</h2>
+
+This one is particularly useful.  Credit to <a href="https://tmihoc.github.io/">Dora Mihoc.</a>
+
+<pre>
+<code>
+<b>\newcommand{\op}[2]{\ensuremath{\langle #1,#2\rangle}}</b>
+
+...
+
+    instead of typing <a style="color:red;">$\langle</a> a, b<a style="color:red;">\rangle$</a>
+
+    you type <a style="color:red;">\op{</a>a<a style="color:red;">}{</a>b<a style="color:red;">}</a>
+
+</code>
+</pre>
+
+<p>which will produce ...</p>
+
+<img src="figures/types-1.png" alt="types-1.png" style="width:25%;height:25;">
+
+<br><br>
+
+<p>  This is nice because LaTeX linters don't (as far as I know) highlight the scope of <i>$\langle$, $\rangle$</i>.   Some really nice things about this are how straightforward it is to embed it </p>
+
+<pre>
+<code>
+\newcommand{\op}[2]{\ensuremath{\langle #1,#2\rangle}}
+\usepackage{linguex}
+
+\ex.
+    \a.\op{\op{e}{t}}{\op{\op{e}{t}}{t}}
+    \b.\op{et}{\op{et}{t}}
+    \b.\op{\op{e}{t}}{e}
+    \b.\op{\op{s}{t}}{\op{\op{s}{t}}{t}}
+
+</code>
+</pre>
+
+<img src="figures/types.png" alt="types.png" style="width:55%;height:55%;">
+
+
+
+
+
+
+<h2></h2>
+
+<br><br><br>
+<p style="text-align:right;"><font size=+3><a href="#top">Back to top</a></font></p>
+<hr>
+<br>
+
+
+        <h1>2. Essential packages</h1>
+
+
+        <br><br><br>
+<p style="text-align:right;"><font size=+3><a href="#top">Back to top</a></font></p>
+<hr>
+<br>
+
+        <h1>3. Solutions to common pitfalls</h1>
+
+        <h2>Glosses (Linguex)</h2>
+
+        <h3>Referencing: change (1-a) to (1a):</h3>
+
+<pre>
+<code>
+<b>\renewcommand{\firstrefdash}{}
+\usepackage{linguex}</b>
+...
+
+    <a style="color:red;">\ex.
+    \a.\label{x}</a>This is a sentence.
+    <a style="color:red;">\b.\label{y}</a>This is another sentence.
+    <a style="color:red;">\b.\label{z}</a>This is yet another sentence.
+
+Now let's refer to them:<a style="color:red;">\\</a>
+Sentence <a style="color:red;">\ref{y}</a> is below <a style="color:red;">\ref{x}</a>.<a style="color:red;">\\</a>
+Sentence <a style="color:red;">\ref{z}</a> is below <a style="color:red;">\ref{y}</a>.<a style="color:red;">\\</a>
+Isn't that neat?
+</code>
+</pre>
+
+<img src="figures/references-dash.png" alt="figures-dash.png" style="height:65%;width:65%;">
+
+<br>
+<br>
+<br>
+
+        <h3>Right-justifying a piece of text after a three-line Linguex gloss (e.g. language name)</h3>
+
+<p> The <i>linguex</i> package can be pretty finicky with spacing.  Sometimes, if you are comparing similar patterns in different languages, it's clearest to put the name of the language in the right margin that follows the example.</p>
+
+<br>
+
+        <img src="figures/right-justify.png" alt="right-justify.png">
+
+        <br>
+        <br>
+
+    A useful macro for this is included in the codebox below (credit to <a href="https://brianbuccola.com/right-aligned-text-in-a-linguex-gloss-example/">Brian Buccola for this macro</a>).  The macro goes after translation of the gloss.  
+
+        <br>
+        <br>
+<pre>
+<code>
+<b>\newcommand{\rcommentg}[1]{\hfill\raisebox{1.9\baselineskip}[0pt][0pt]{#1}}</b>
+<b>\usepackage{linguex}</b>
+...
+
+<a style="color:red;">\ex.
+\ag.</a>Rechts -schutz -versicher -ung -s -gesellschaft -en\\
+legal -protection -insure -\textsc{nmlz} -\textit{s} -society -\textsc{pl}\\
+`insurance policies which provide legation protections'<b><a style="color:red;">\rcommentg{</a>(German)<a style="color:red;">}</a></b>
+<a style="color:red;">\bg.</a>kolmi -vaihe -kilo -watti -tunti -mitta -ri\\
+three -phase -kilo -watt -hour -meter -\textsc{nom}\\
+`electricity meter'<b><a style="color:red;">\rcommentg{</a>(Finnish)<a style="color:red;">}</a></b>
+<a style="color:red;">\bg.</a>al -fr{\ae}{\eth}i -or{\eth}a -b{\ae}k -ur -nar\\
+all -study -word -book -\textsc{nom/acc.pl} -\textsc{def}\\
+`the encyclopedias'<b><a style="color:red;">\rcommentg{</a>(Icelandic)<a style="color:red;">}</a></b>
+<a style="color:red;">\bg.</a>z\`{\i} d\`{o}ng gu\'{\i} yu\'{a}n j\'{\i}\\
+self move cabinet money machine\\
+`ATM (automated teller machine)' <b><a style="color:red;">\rcommentg{</a>(Mandarin)<a style="color:red;">}</a></b>
+
+</code>
+</pre>
+
+
+
+    
+
+
+        <br><br><br>
+<p style="text-align:right;"><font size=+3><a href="#top">Back to top</a></font></p>
+<hr>
+<br>
+
+<h2>Special characters, diacritics</h2>
+
+
+<h3>The letter <i>i</i> with accents macron, caron, tilde, breve</h3>
+
+
+
+
+<br>
+<br>
+
+
+
+
+<img src="figures/i-problem.png" alt="i-problem.png" style="height:75%;width:75%;">
+
+<br><br>
+<p>This is caused by using the dotted-<i>i</i> as the base character (i.e. you are typing <i>\={i}</i>, etc.  The solution to this is to use the dotless-<i>i</i>: <i>ı</i>, which you can get through the command <i>\i</i></p>
+<br><br>
+
+
+<pre>
+<code>
+Instead of \={i}, \~{i}, \u{i}, \v{i}
+
+you have to type <b><a style="color:red;">\={\i}</a>, <a style="color:red;">\~{\i}</a>, <a style="color:red;">\u{\i}</a>, <a style="color:red;">\v{\i}</a></b>
+</code>
+</pre>
+
+
+
+<br><br><br>
+<p style="text-align:right;"><font size=+3><a href="#top">Back to top</a></font></p>
+<hr>
+<br>
+
+    </div>
+
+
+</div>
+
+ 
+
+</body>
+
+<script>
+
+    window.onload = function () {
+        var toc = "";
+        var level = 0;
+    
+        document.getElementById("contents").innerHTML =
+            document.getElementById("contents").innerHTML.replace(
+                /<h([\d])>([^<]+)<\/h([\d])>/gi,
+                function (str, openLevel, titleText, closeLevel) {
+                    if (openLevel != closeLevel) {
+                        return str;
+                    }
+    
+                    if (openLevel > level) {
+                        toc += (new Array(openLevel - level + 1)).join("<ul>");
+                    } else if (openLevel < level) {
+                        toc += (new Array(level - openLevel + 1)).join("</ul>");
+                    }
+    
+                    level = parseInt(openLevel);
+    
+                    var anchor = titleText.replace(/ /g, "_");
+                    toc += "<li><a href=\"#" + anchor + "\">" + titleText
+                        + "</a></li>";
+    
+                    return "<h" + openLevel + "><a name=\"" + anchor + "\">"
+                        + titleText + "</a></h" + closeLevel + ">";
+                }
+            );
+    
+        if (level) {
+            toc += (new Array(level + 1)).join("</ul>");
+        }
+    
+        document.getElementById("toc").innerHTML += toc;
+    };
+    </script>
+
+</html>
