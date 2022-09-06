@@ -1,355 +1,336 @@
-﻿"language","dialect","Total_hits","hit_and","hit_also"
+﻿"language","dialect","Total_hits","Total_and","Total_also"
 " ǃKung","",1,0,0
-" ǃKung"," ",1,0,0
-" ǃXóõ","",1,1,0
-" ǃXóõ"," ",2,2,0
-" Abkhaz"," ",2,2,0
-" Adyghe"," ",1,1,0
-" Afrikaans"," ",10,2,0
-" Aghwan"," ",1,0,0
-" Akkadian"," ",1,1,0
-" Akkala Sami"," ",1,1,0
-" Albanian"," ",7,2,2
-" Alutor"," ",1,1,0
-" American Sign Language"," ",3,0,0
-" Amharic"," ",4,3,1
-" Antillean Creole"," ",1,1,0
+" ǃXóõ","",2,2,0
+" Abkhaz","",2,2,0
+" Adyghe","",1,1,0
+" Afrikaans","",10,2,0
+" Aghwan","",1,0,0
+" Akkadian","",1,1,0
+" Akkala Sami","",1,1,0
+" Albanian","",6,1,2
+" Alutor","",1,1,0
+" American Sign Language","",3,0,0
+" Amharic","",3,2,1
+" Antillean Creole","",1,1,0
 " Apache"," Western Apache",3,0,1
-" Arabic"," ",29,2,3
+" Arabic","",28,1,3
 " Arabic"," Egyptian",1,0,0
 " Arabic"," Egyptian Arabic",4,1,2
 " Arabic"," Hijazi Arabic",3,1,2
 " Arabic"," Moroccan Arabic",3,0,0
 " Arabic"," Tunisian Arabic",1,1,0
-" Aragonese"," ",9,3,1
+" Aragonese","",8,3,1
 " Aramaic"," Classical Syriac",2,1,0
 " Aramaic"," Jewish Aramaic",2,0,0
 " Aramaic"," Jewish Babylonian Aramaic",1,1,0
-" Armenian"," ",19,5,2
-" Aromanian"," ",4,1,1
-" Ashkun"," ",1,0,0
-" Assamese"," ",3,1,0
-" Asturian"," ",7,4,1
-" Avar"," ",2,2,0
-" Avestan"," ",1,0,0
-" Aymara"," ",2,2,0
-" Azerbaijani"," ",14,2,2
-" Bakhtiari"," ",1,0,0
-" Bashkir"," ",17,4,0
-" Basque"," ",9,4,0
-" Bavarian"," ",1,0,1
-" Belarusian"," ",19,2,1
-" Belizean Creole"," ",1,1,0
-" Bengali"," ",15,2,1
-" Bikol Central"," ",4,2,0
+" Armenian","",19,5,2
+" Aromanian","",4,1,1
+" Ashkun","",1,0,0
+" Assamese","",3,1,0
+" Asturian","",7,4,1
+" Avar","",2,2,0
+" Avestan","",1,0,0
+" Azerbaijani","",13,1,2
+" Bakhtiari","",1,0,0
+" Bashkir","",17,4,0
+" Basque","",9,4,0
+" Bavarian","",1,0,1
+" Belarusian","",19,2,1
+" Belizean Creole","",1,1,0
+" Bengali","",15,2,1
+" Bikol Central","",4,2,0
 " Bikol Central"," Bikol Legazpi",1,1,0
 " Bikol Central"," Bikol Naga",1,1,0
-" Breton"," ",5,2,1
-" Bulgarian"," ",26,2,2
-" Burmese"," ",5,1,1
-" Buryat"," ",1,1,0
-" Catalan"," ",34,3,1
-" Cebuano"," ",2,1,1
-" Central Atlas Tamazight"," ",1,1,0
-" Central Dusun"," ",1,1,0
-" Central Kurdish"," ",1,0,0
-" Central Sierra Miwok"," ",1,1,0
-" Chamicuro"," ",2,0,0
-" Chechen"," ",4,3,0
-" Cherokee"," ",8,4,0
-" Cheyenne"," ",1,0,0
-" Chichewa"," ",2,2,0
-" Chickasaw"," ",5,4,1
+" Breton","",4,2,1
+" Bulgarian","",26,2,2
+" Burmese","",4,1,1
+" Buryat","",1,1,0
+" Catalan","",34,3,1
+" Cebuano","",2,1,1
+" Central Atlas Tamazight","",1,1,0
+" Central Dusun","",1,1,0
+" Central Kurdish","",1,0,0
+" Central Sierra Miwok","",1,1,0
+" Chamicuro","",2,0,0
+" Chechen","",4,3,0
+" Cherokee","",8,4,0
+" Cheyenne","",1,0,0
+" Chichewa","",2,2,0
+" Chickasaw","",5,4,1
 " Chinese"," Cantonese",17,3,3
 " Chinese"," Dungan",2,1,1
-" Chinese"," Gan",1,0,0
 " Chinese"," Hakka",8,2,0
-" Chinese"," Mandarin",56,11,7
-" Chinese"," Min Dong",2,0,1
+" Chinese"," Mandarin",53,11,7
+" Chinese"," Min Dong",1,0,1
 " Chinese"," Min Nan",18,4,2
 " Chinese"," Wu",2,1,0
-" Chukchi"," ",1,1,0
-" Chuukese"," ",1,1,0
-" Chuvash"," ",2,1,0
-" Classical Nahuatl"," ",1,0,0
+" Chukchi","",1,1,0
+" Chuukese","",1,1,0
+" Chuvash","",2,1,0
+" Classical Nahuatl","",1,0,0
 " Coptic"," Bohairic",4,4,0
 " Coptic"," Sahidic",4,4,0
 " Cornish"," Kernewek Kemmyn",6,6,0
-" Crimean Tatar"," ",2,0,0
-" Czech"," ",24,4,1
-" Dalmatian"," ",3,1,1
-" Danish"," ",37,5,1
-" Dhivehi"," ",2,1,0
-" Dutch"," ",40,2,3
-" Dzongkha"," ",1,1,0
-" East Central German"," ",1,0,1
-" Egyptian"," ",3,2,0
-" Elfdalian"," ",1,1,0
-" Eshtehardi"," ",1,0,1
-" Esperanto"," ",24,3,1
-" Estonian"," ",16,4,3
-" Ewe"," ",3,1,0
-" Extremaduran"," ",2,1,1
-" Faliscan"," ",1,1,0
-" Farefare"," ",1,0,1
-" Faroese"," ",7,1,2
-" Finnish"," ",57,9,2
-" French"," ",48,4,2
-" Friulian"," ",3,1,1
-" Galician"," ",19,3,1
-" Gallurese"," ",2,0,2
-" Georgian"," ",25,1,4
-" German"," ",42,3,1
+" Crimean Tatar","",2,0,0
+" Czech","",24,4,1
+" Dalmatian","",3,1,1
+" Danish","",37,5,1
+" Dhivehi","",1,1,0
+" Dutch","",40,2,3
+" Dzongkha","",1,1,0
+" East Central German","",1,0,1
+" Egyptian","",3,2,0
+" Elfdalian","",1,1,0
+" Eshtehardi","",1,0,1
+" Esperanto","",24,3,1
+" Estonian","",16,4,3
+" Ewe","",2,0,0
+" Extremaduran","",1,0,1
+" Faliscan","",1,1,0
+" Farefare","",1,0,1
+" Faroese","",7,1,2
+" Finnish","",57,9,2
+" French","",48,4,2
+" Friulian","",3,1,1
+" Galician","",19,3,1
+" Gallurese","",2,0,2
+" Georgian","",25,1,4
+" German","",42,3,1
 " German"," Alemannic German",1,0,1
 " German"," Pennsylvania German",1,0,0
 " German"," Silesian",2,0,0
-" Gothic"," ",7,2,2
-" Greek"," ",38,4,1
+" Gothic","",7,2,2
+" Greek","",38,4,1
 " Greek"," Ancient",20,5,1
 " Greek"," Mycenaean",1,1,0
-" Greenlandic"," ",1,1,0
-" Guaraní"," ",5,1,0
-" Guerrero Amuzgo"," ",1,0,0
-" Gujarati"," ",5,1,0
-" Haitian Creole"," ",5,1,0
-" Hausa"," ",1,1,0
-" Hawaiian"," ",4,3,0
-" Hebrew"," ",11,2,1
+" Greenlandic","",1,1,0
+" Guaraní","",5,1,0
+" Guerrero Amuzgo","",1,0,0
+" Gujarati","",5,1,0
+" Haitian Creole","",5,1,0
+" Hausa","",1,1,0
+" Hawaiian","",4,3,0
+" Hebrew","",11,2,1
 " Hebrew"," Ancient",1,1,0
-" Hiligaynon"," ",2,1,0
-" Hindi"," ",26,14,1
-" Hungarian"," ",35,4,3
-" Hunsrik"," ",1,1,0
-" Iban"," ",1,1,0
-" Icelandic"," ",13,2,2
-" Ido"," ",15,2,1
-" Igbo"," ",1,1,0
-" Ilocano"," ",2,2,0
-" Inari Sami"," ",1,1,0
-" Indonesian"," ",13,1,2
-" Ingush"," ",2,1,0
-" Interlingua"," ",23,4,3
-" Irish"," ",25,5,4
+" Hiligaynon","",2,1,0
+" Hindi","",26,14,1
+" Hungarian","",35,4,3
+" Hunsrik","",1,1,0
+" Iban","",1,1,0
+" Icelandic","",13,2,2
+" Ido","",15,2,1
+" Igbo","",1,1,0
+" Ilocano","",2,2,0
+" Inari Sami","",1,1,0
+" Indonesian","",13,1,2
+" Ingush","",2,1,0
+" Interlingua","",23,4,3
+" Irish","",25,5,4
 " Irish"," Old Irish",1,0,0
-" Istriot"," ",3,0,1
-" Istro-Romanian"," ",1,0,1
-" Italian"," ",39,3,4
-" Ivatan"," ",1,0,0
-" Japanese"," ",50,11,4
-" Javanese"," ",3,2,1
-" Jeju"," ",1,0,0
-" Kabuverdianu"," ",4,1,0
-" Kalmyk"," ",2,2,0
-" Kamkata-viri"," ",2,0,0
-" Kannada"," ",3,2,0
-" Kapampangan"," ",3,1,0
-" Karelian"," ",1,1,0
-" Kashubian"," ",2,1,1
-" Kazakh"," ",13,4,3
-" Ket"," ",1,0,0
-" Khmer"," ",13,3,1
-" Kikuyu"," ",1,0,0
-" Korean"," ",44,6,3
+" Istriot","",3,0,1
+" Istro-Romanian","",1,0,1
+" Italian","",39,3,4
+" Ivatan","",1,0,0
+" Japanese","",50,11,4
+" Javanese","",3,2,1
+" Jeju","",1,0,0
+" Kabuverdianu","",4,1,0
+" Kalmyk","",2,2,0
+" Kamkata-viri","",2,0,0
+" Kannada","",3,2,0
+" Kapampangan","",3,1,0
+" Karelian","",1,1,0
+" Kashubian","",2,1,1
+" Kazakh","",13,4,3
+" Ket","",1,0,0
+" Khmer","",12,3,1
+" Kikuyu","",1,0,0
+" Korean","",44,6,3
 " Kurdish"," Central Kurdish",18,2,0
 " Kurdish"," Northern Kurdish",21,5,0
-" Kyrgyz"," ",4,1,2
-" Ladin"," ",1,0,0
-" Ladino"," ",5,2,0
-" Lakota"," ",1,1,0
-" Lao"," ",10,1,3
-" Latgalian"," ",3,1,2
-" Latin"," ",38,8,2
-" Latvian"," ",8,2,2
-" Laz"," ",1,1,0
-" Lezgi"," ",1,0,0
-" Limburgish"," ",3,0,3
-" Lingala"," ",3,0,2
-" Lithuanian"," ",7,1,1
-" Livonian"," ",1,0,0
-" Lombard"," ",3,1,1
-" Low German"," ",2,2,0
+" Kyrgyz","",4,1,2
+" Ladin","",1,0,0
+" Ladino","",5,2,0
+" Lakota","",1,1,0
+" Lao","",9,1,3
+" Latgalian","",3,1,2
+" Latin","",38,8,2
+" Latvian","",8,2,2
+" Laz","",1,1,0
+" Lezgi","",1,0,0
+" Limburgish","",3,0,3
+" Lingala","",3,0,2
+" Lithuanian","",7,1,1
+" Livonian","",1,0,0
+" Lombard","",3,1,1
+" Low German","",2,2,0
 " Low German"," Dutch Low Saxon",1,1,0
 " Low German"," German Low German",6,2,2
-" Lü"," ",3,3,0
-" Luganda"," ",2,2,0
-" Lule Sami"," ",1,1,0
-" Luxembourgish"," ",1,1,0
-" Macedonian"," ",18,1,2
-" Malagasy"," ",3,2,0
-" Malay"," ",17,2,1
+" Lü","",3,3,0
+" Luganda","",2,2,0
+" Lule Sami","",1,1,0
+" Luxembourgish","",1,1,0
+" Macedonian","",18,1,2
+" Malagasy","",3,2,0
+" Malay","",17,2,1
 " Malay"," Jawi",4,1,0
 " Malay"," Rumi",5,1,0
-" Malayalam"," ",9,3,0
-" Maltese"," ",15,3,2
-" Manchu"," ",2,2,0
-" Manx"," ",2,1,0
-" Maore Comorian"," ",1,0,0
-" Maori"," ",23,11,1
-" Maranao"," ",2,1,0
-" Marathi"," ",2,2,0
-" Mbyá Guaraní"," ",2,1,0
-" Meänkieli"," ",1,0,1
-" Middle English"," ",4,3,0
-" Middle Korean"," ",1,0,0
-" Middle Persian"," ",3,3,0
-" Middle Persian:{{t|pal|𐭤𐭬𐭢|ts=hamag}}` {{t|pal|𐭥𐭮𐭯|ts=wisp}}","",1,0,0
-" Mingrelian"," ",1,1,0
-" Mirandese"," ",5,3,0
-" Miskito"," ",1,0,1
-" Mòcheno"," ",2,1,0
-" Mongolian"," ",4,2,1
-" Moore"," ",1,0,1
-" Moroccan Amazigh"," ",1,1,0
-" Mwali Comorian"," ",1,0,0
-" Nafaanra"," ",1,1,0
-" Nahuatl"," ",1,0,0
+" Malayalam","",9,3,0
+" Maltese","",15,3,2
+" Manchu","",2,2,0
+" Manx","",2,1,0
+" Maore Comorian","",1,0,0
+" Maori","",23,11,1
+" Maranao","",2,1,0
+" Marathi","",2,2,0
+" Mbyá Guaraní","",2,1,0
+" Meänkieli","",1,0,1
+" Middle English","",4,3,0
+" Middle Korean","",1,0,0
+" Middle Persian","",3,3,0
+" Mingrelian","",1,1,0
+" Mirandese","",4,3,0
+" Miskito","",1,0,1
+" Mòcheno","",2,1,0
+" Mongolian","",4,2,1
+" Moore","",1,0,1
+" Moroccan Amazigh","",1,1,0
+" Mwali Comorian","",1,0,0
+" Nafaanra","",1,1,0
+" Nahuatl","",1,0,0
 " Nahuatl"," Central",1,1,0
 " Nahuatl"," Classical",1,1,0
-" Nauruan"," ",1,1,0
-" Navajo"," ",10,2,2
-" Neapolitan"," ",1,0,1
-" Nepali"," ",2,1,1
-" Newar"," ",1,1,0
-" Ngazidja Comorian"," ",6,0,1
-" Nogai"," ",2,2,0
-" Norman"," ",7,3,2
-" North Frisian"," ",1,0,1
-" Northern Sami"," ",4,1,3
-" Northern Thai"," ",1,1,0
-" Norwegian"," ",13,0,0
+" Nauruan","",1,1,0
+" Navajo","",10,2,2
+" Neapolitan","",1,0,1
+" Nepali","",2,1,1
+" Newar","",1,1,0
+" Ngazidja Comorian","",6,0,1
+" Nogai","",2,2,0
+" Norman","",7,3,2
+" North Frisian","",1,0,1
+" Northern Sami","",4,1,3
+" Norwegian","",13,0,0
 " Norwegian"," Bokmål",14,5,3
 " Norwegian"," Nynorsk",11,5,3
-" Occitan"," ",2,1,0
-" Ojibwe"," ",10,7,0
-" Okinawan"," ",1,1,0
-" Old Assamese"," ",1,0,0
+" Occitan","",2,1,0
+" Ojibwe","",10,7,0
+" Okinawan","",1,1,0
+" Old Assamese","",1,0,0
 " Old Church Slavonic"," Cyrillic",1,1,0
 " Old Church Slavonic"," Glagolitic",1,1,0
-" Old East Slavic"," ",1,1,0
-" Old English"," ",12,1,1
-" Old High German"," ",3,2,0
-" Old Javanese"," ",1,0,1
-" Old Norse"," ",3,1,0
-" Old Persian"," ",3,3,0
-" Old Prussian"," ",2,2,0
-" Old Saxon"," ",3,2,0
-" Oriya"," ",2,1,0
-" Ossetian"," ",1,1,0
-" Ottoman Turkish"," ",1,1,0
-" Pangasinan"," ",1,1,0
-" Pashto"," ",8,4,0
-" Persian"," ",22,5,3
-" Phoenician"," ",1,1,0
-" Picard"," ",1,0,0
-" Pipil"," ",1,0,0
-" Pite Sami"," ",1,1,0
-" Plautdietsch"," ",4,0,1
-" Polabian"," ",1,1,0
-" Polish"," ",41,4,3
-" Portuguese"," ",39,3,1
-" Prasuni"," ",1,0,0
-" Proto-Norse"," ",1,1,0
-" Punjabi"," ",1,1,0
+" Old East Slavic","",1,1,0
+" Old English","",12,1,1
+" Old High German","",3,2,0
+" Old Javanese","",1,0,1
+" Old Norse","",3,1,0
+" Old Persian","",3,3,0
+" Old Prussian","",2,2,0
+" Old Saxon","",3,2,0
+" Oriya","",2,1,0
+" Ossetian","",1,1,0
+" Ottoman Turkish","",1,1,0
+" Pangasinan","",1,1,0
+" Pashto","",7,4,0
+" Persian","",22,5,3
+" Phoenician","",1,1,0
+" Picard","",1,0,0
+" Pipil","",1,0,0
+" Pite Sami","",1,1,0
+" Plautdietsch","",4,0,1
+" Polabian","",1,1,0
+" Polish","",41,4,3
+" Portuguese","",39,3,1
+" Prasuni","",1,0,0
+" Proto-Norse","",1,1,0
+" Punjabi","",1,1,0
 " Punjabi"," Shahmukhi",1,1,0
-" Quechua"," ",5,0,1
-" Rajasthani"," ",2,2,0
-" Romani"," ",4,1,0
-" Romanian"," ",41,3,3
-" Romansch"," ",5,2,0
-" Russian"," ",56,7,2
-" Rusyn"," ",2,1,0
-" Rwanda-Rundi"," ",1,1,0
-" Samogitian"," ",2,2,0
-" Sanskrit"," ",6,1,0
-" Sardinian"," ",2,1,0
+" Quechua","",5,0,1
+" Rajasthani","",2,2,0
+" Romani","",4,1,0
+" Romanian","",41,3,3
+" Romansch","",5,2,0
+" Russian","",56,7,2
+" Rusyn","",2,1,0
+" Samogitian","",2,2,0
+" Sanskrit","",6,1,0
+" Sardinian","",2,1,0
 " Sardinian"," Campidanese",2,0,2
 " Sardinian"," Logudorese",3,0,3
-" Sassarese"," ",1,0,1
-" Scots"," ",9,1,2
-" Scottish Gaelic"," ",19,2,2
-" Semai"," ",1,1,0
-" Serbo-Croatian"," ",7,0,0
+" Sassarese","",1,0,1
+" Scots","",9,1,2
+" Scottish Gaelic","",19,2,2
+" Semai","",1,1,0
+" Serbo-Croatian","",7,0,0
 " Serbo-Croatian"," Cyrillic",13,2,2
 " Serbo-Croatian"," Latin",2,0,0
 " Serbo-Croatian"," Roman",15,2,2
-" Shan"," ",1,1,0
-" Sherpa"," ",1,1,0
-" Sicilian"," ",2,1,0
-" Sindhi"," ",3,3,0
-" Sinhalese"," ",2,1,0
-" Skolt Sami"," ",1,1,0
-" Slovak"," ",23,4,2
-" Slovene"," ",19,6,1
-" Somali"," ",2,1,0
+" Shan","",1,1,0
+" Sherpa","",1,1,0
+" Sicilian","",2,1,0
+" Sindhi","",3,3,0
+" Sinhalese","",2,1,0
+" Skolt Sami","",1,1,0
+" Slovak","",23,4,2
+" Slovene","",19,6,1
+" Somali","",1,1,0
 " Sorbian"," Lower Sorbian",7,2,1
 " Sorbian"," Upper Sorbian",2,2,0
-" Southern Altai"," ",3,1,0
-" Southern Ohlone"," ",1,1,0
-" Southern Sami"," ",1,1,0
-" Spanish","",4,0,0
-" Spanish"," ",46,5,2
-" Sundanese"," ",3,2,0
-" Svan"," ",1,0,0
-" Swahili"," ",7,1,1
-" Swedish"," ",42,4,2
-" Sylheti"," ",2,1,0
-" Tagalog"," ",4,2,2
-" Tajik"," ",7,2,4
-" Tamil"," ",5,1,0
-" Taos"," ",1,0,1
-" Tatar"," ",4,3,0
-" Telugu","",1,0,0
-" Telugu"," ",14,1,0
-" Ter Sami"," ",1,1,0
-" Tetum"," ",1,0,0
-" Thai"," ",14,2,2
-" Tibetan"," ",2,1,1
-" Tigrinya"," ",1,1,0
-" Tocharian B"," ",5,1,1
-" Tok Pisin","",1,1,0
-" Tok Pisin"," ",9,6,0
-" Tregami"," ",1,0,0
-" Tupinambá"," ",2,0,0
-" Turkish"," ",22,2,4
-" Turkmen"," ",5,1,1
-" Tuvan"," ",2,2,0
-" Tzotzil"," ",1,1,0
-" Udmurt"," ",1,1,0
-" Ugaritic"," ",4,0,1
-" Ukrainian","",2,0,0
-" Ukrainian"," ",39,10,3
-" Ume Sami"," ",1,1,0
-" Urdu"," ",12,1,1
-" Uyghur"," ",6,3,3
-" Uzbek"," ",4,1,2
-" Vandalic"," ",1,1,0
-" Venetian"," ",5,1,1
-" Vietnamese","",1,1,0
-" Vietnamese"," ",17,4,1
-" Vilamovian"," ",1,1,0
-" Volapük"," ",4,1,0
-" Waigali"," ",1,0,0
-" Walloon","",1,0,0
-" Walloon"," ",10,4,0
-" Welsh"," ",13,4,1
-" West Frisian"," ",3,2,1
-" Westrobothnian"," ",3,0,0
-" White Hmong"," ",1,1,0
-" Wolof"," ",1,1,0
-" Xhosa"," ",10,10,0
-" Yagnobi"," ",1,0,0
-" Yakut"," ",1,1,0
+" Southern Altai","",3,1,0
+" Southern Ohlone","",1,1,0
+" Southern Sami","",1,1,0
+" Spanish","",43,5,2
+" Sundanese","",3,2,0
+" Svan","",1,0,0
+" Swahili","",7,1,1
+" Swedish","",42,4,2
+" Sylheti","",2,1,0
+" Tagalog","",4,2,2
+" Tajik","",7,2,4
+" Tamil","",5,1,0
+" Taos","",1,0,1
+" Tatar","",4,3,0
+" Telugu","",14,1,0
+" Ter Sami","",1,1,0
+" Tetum","",1,0,0
+" Thai","",14,2,2
+" Tibetan","",2,1,1
+" Tigrinya","",1,1,0
+" Tocharian B","",5,1,1
+" Tok Pisin","",9,6,0
+" Tregami","",1,0,0
+" Tupinambá","",2,0,0
+" Turkish","",22,2,4
+" Turkmen","",5,1,1
+" Tuvan","",2,2,0
+" Tzotzil","",1,1,0
+" Udmurt","",1,1,0
+" Ugaritic","",4,0,1
+" Ukrainian","",39,10,3
+" Ume Sami","",1,1,0
+" Urdu","",12,1,1
+" Uyghur","",6,3,3
+" Uzbek","",4,1,2
+" Vandalic","",1,1,0
+" Venetian","",5,1,1
+" Vietnamese","",17,4,1
+" Vilamovian","",1,1,0
+" Volapük","",4,1,0
+" Waigali","",1,0,0
+" Walloon","",10,4,0
+" Welsh","",13,4,1
+" West Frisian","",3,2,1
+" Westrobothnian","",3,0,0
+" White Hmong","",1,1,0
+" Xhosa","",10,10,0
+" Yagnobi","",1,0,0
+" Yakut","",1,1,0
 " Yámana","",1,0,0
-" Yámana"," ",1,0,0
-" Yiddish"," ",11,1,1
-" Yoruba","",1,0,0
-" Yoruba"," ",2,0,0
-" Yucatec Maya"," ",1,1,0
-" Yup'ik"," ",1,1,0
-" Zazaki","",2,0,0
-" Zazaki"," ",3,0,0
-" Zealandic","",4,0,0
-" Zealandic"," ",8,2,1
-" Zhuang"," ",2,1,0
-" Zulu","",1,1,0
-" Zulu"," ",3,3,0
+" Yiddish","",11,1,1
+" Yoruba","",2,0,0
+" Yucatec Maya","",1,1,0
+" Yup'ik","",1,1,0
+" Zazaki","",3,0,0
+" Zealandic","",8,2,1
+" Zhuang","",2,1,0
+" Zulu","",2,2,0
