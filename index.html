@@ -10,6 +10,10 @@
             background-color:#fffaf0;
             color:black;
         }
+        .flex-container{
+            display:flex;
+            flex-wrap:wrap;
+        }
     </style>
 	</head>
 
@@ -17,8 +21,11 @@
 
 <body>
 
+
 <section id="header" style="height:250px;">
-    <h1><font size="+4">Ian Kirby</font></h1>
+    <h1><font size="+4">Ian Kirby</font>
+
+</h1>
     PhD candidate, Harvard University (Department of Linguistics)
     
     <br><br>
@@ -28,22 +35,43 @@
     </div>
     <div id="contact" height="250">
 <br>
-    <li>email: ikirby \@\ g \.\ harvard \.\ edu</li>
-    <li><a href="https://twitter.com/IanLKirby">twitter.com/IanLKirby</a></li>
-    <li><a href="https://scholar.harvard.edu/ikirby">scholar.harvard.edu/ikirby</a></li>
-    <li><a href="https://scholar.google.com/citations?user=pEPWk3IAAAAJ&hl=en&oi=sra">Google scholar</a></li>
-    <br> <br>
+    <div class="flex-container"><img src="Pics/em1a.png"/><img src="Pics/em1b.png"></div>
+    <div class="flex-container"><img src="Pics/em2a.png"/><img src="Pics/em2b.png"/></div>
+    <div><a href="https://scholar.harvard.edu/ikirby">scholar.harvard.edu/ikirby</a></div>
+    <br>
+    <br>
+    <div class="flex-container" style="height:50px;">
+        <div><a href="https://twitter.com/IanLKirby"><img src="Pics/icons/Twitter-logo.svg" style="width:40px;height:40px;"></a></div>
+        <div><img src="Pics/icons/Mastodon_Logotype_(Simple).svg" style="height:40px;width:40px;"></a></div>
+        <div><a href="https://scholar.google.com/citations?user=pEPWk3IAAAAJ&hl=en&oi=sra"><img src="Pics/icons/Google_Scholar_logo.svg" style="width:40px;height:40px;"/></a></div>
+        <div><a href="https://github.com/iankirby/"><img src="Pics/icons/Octicons-mark-github.svg"style="width:40px;height:40px;"/></a></div>
+    </div>
+    <!-- <br> <br> -->
 </div>
 
 </section>
 <br> <br><br><br> <br><br><br> <br><br>
+<hr>
 
-<div id="navbar" style="padding-bottom:34px">
-<hr>
-<font size="+1">
-<a href="#about-recent">General</a> — <a href="#papers">Papers</a> — <a href="#handouts">Handouts</a> — <a href="#resources">Resources</a> — <a href="Docs/August_2022_CV.pdf">CV</a> — <a href="SiteFiles/about_me.html">About me</a></font>
-<hr>
-</div>
+<div class="flex-container" id="navbar" style="padding-bottom:34px">
+    <div><font size="+1"><a href="#about-recent">General</a></font></div>
+    <div> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+    <div><font size="+1"><a href="#papers">Papers</a> </font></div>
+    <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+    <div><font size="+1"><a href="#handouts">Handouts</a></font></div>
+    <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+    <div><font size="+1"><a href="#resources">Resources</a></font></div>
+    <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+    <div><font size="+1"><a href="Docs/August_2022_CV.pdf">CV</a></font></div>
+    <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+    <div><font size="+1"><a href="SiteFiles/about_me.html">About me</a></font></div>
+    </div>
+    <hr>
+<!-- <a href="#about-recent">General</a> — <a href="#papers">Papers</a> — <a href="#handouts">Handouts</a> — <a href="#resources">Resources</a> — <a href="Docs/August_2022_CV.pdf">CV</a> — <a href="SiteFiles/about_me.html">About me</a></font> -->
+<!-- </div>
+<hr> -->
+
+
 <h2><font size="+2">General</font></h2>
 
 
