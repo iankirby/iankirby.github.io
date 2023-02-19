@@ -1,6 +1,6 @@
 # iankirby.github.io
 
-This repository mainly files I've linked on [my website](https://iankirby.github.io/, but it also contains copies of some resources I thought would be useful for others. You can contact me at ian@ilkirby.com for feedback, issues, or suggestions.
+This repository mainly files I've linked on [my website](https://iankirby.github.io/), but it also contains copies of some resources I thought would be useful for others. You can contact me at ian@ilkirby.com for feedback, issues, or suggestions.
 
 # Resources
 
