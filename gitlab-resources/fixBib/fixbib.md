@@ -55,8 +55,3 @@ If you are inconsistent in whether or not your include double braces, it will on
 3. Put the new `.bib` file into your LaTeX project (making sure you've pointed towards the correct name in your `.tex` document.)
 
 If you encounter any errors, please email me at `ian@ilkirby.com`.
-
-## To do
-
-- if it already contains double braces and a comma... (currently the script doesn't work if `title=...` or `booktitle=` is the last entry (i..e if there is no comma after the final brace))
-- make option for titles that include acronyms (e.g. NPI, FCI)
