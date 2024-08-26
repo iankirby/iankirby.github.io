@@ -4,8 +4,7 @@ This repository houses a few things I have created or compiled for my own purpos
 
 ## Latex
 
-- [fixBib.pl](fixBib/fixbib.md), a Perl script that replaces `title={`...`},` with `title={{`...`}}` (for capitalization in book and article titles).
-<!-- - [texSpacing.py](texSpacing/texspacing.md), a Python script that makes sure linguex, figures, tables, and align environments are single spaced in an otherwise non-single spaced environment. -->
+- [fixBib.pl](fixBib/fixbib.md), a Perl script that fixes <em>.bib</em> file capitalization.
 
 ## Wiktionary tools (in progress)
 
