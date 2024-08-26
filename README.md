@@ -10,8 +10,7 @@ This repository mainly files I've linked on [my website](https://iankirby.github
 
 ## Latex
 
-<!-- - [fixBib.pl](https://gitlab.com/ilkvm/tools/-/blob/main/projects/fixBib/README.md), a Perl script that replaces `title={`...`},` with `title={{`...`}}` (for capitalization in book and article titles). -->
-<!-- - [texSpacing.py](texSpacing/texspacing.md), a Python script that makes sure linguex, figures, tables, and align environments are single spaced in an otherwise non-single spaced environment. -->
+- [fixBib.pl](https://gitlab.com/ilkvm/tools/-/blob/main/projects/fixBib/README.md), a Perl script that fixes capitalization in *.bib* files.
 
 ## Wiktionary tools (in progress)
 
