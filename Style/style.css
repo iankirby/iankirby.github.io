@@ -15,7 +15,7 @@ a:hover{
 }
 
 nav {
- width:100%;
+ width:90%;
  padding:10px 20px;
  font-size: large;
  background-color: slategray;
@@ -45,4 +45,114 @@ nav ul{
   padding: 0;
   display: flex;
   justify-content: space-around;
+}
+
+/* Navbar container */
+.navbar{
+  overflow:hidden;
+  background-color:slategray;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkorange;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Code for the header */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+  border-bottom: 2px solid var black;
+  margin-top:2%;
+}
+
+.topbar-left {
+  max-width: 60%;
+}
+
+.topbar-left h1 {
+  margin: 0;
+  font-size: 48px;
+  /* color: purple; */
+}
+
+.topbar-left p {
+  margin: 5px 0 0;
+  font-size: 20px;
+  /* color:blue; */
+  /* font-style: italic; */
+}
+
+.topbar-right img {
+  width: 200px;
+  height: auto;
+  /* border-radius: 50%; */
+  /* border: 3px solid black; */
+}
+
+.breakline{
+  margin-left:5%;
+  margin-right:5%;
 }

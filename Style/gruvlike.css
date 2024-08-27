@@ -1,0 +1,105 @@
+       :root {
+            /* Background and foreground colors */
+            --background: #282828;
+            --foreground: #ebdbb2;
+            --foreground-alt: #d5c4a1;
+
+            /* Primary colors */
+            --primary-dark: #b8bb26;
+            --primary-light: #d79921;
+
+            /* Accent colors */
+            --accent-red: #fb4934;
+            --accent-green: #b8bb26;
+            --accent-yellow: #fabd2f;
+            --accent-blue: #83a598;
+            --accent-purple: #d3869b;
+            --accent-aqua: #8ec07c;
+            --accent-orange: #fe8019;
+
+            /* Special colors */
+            --special: #689d6a;
+            --special-alt: #d65d0e;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--foreground);
+            font-family: 'Arial', sans-serif;
+        }
+
+        a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--accent-aqua);
+        }
+
+        h1, h2 {
+            color: var(--primary-light);
+        }
+
+        h3 {
+            color: var(--accent-green);
+        }
+
+        h4 {
+            color: var(--accent-yellow);
+        }
+
+        h5 {
+            color: var(--accent-orange);
+        }
+
+        h6 {
+            color: var(--accent-purple);
+        }
+
+        p {
+            color: var(--foreground-alt);
+        }
+
+        button {
+            background-color: var(--primary-dark);
+            color: var(--foreground);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: var(--accent-orange);
+        }
+
+        .code {
+            background-color: var(--foreground-alt);
+            color: var(--background);
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .navbar {
+            background-color: var(--background);
+            border-bottom: 2px solid var(--primary-dark);
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: var(--foreground);
+            padding: 0 15px;
+        }
+
+        .navbar a:hover {
+            color: var(--accent-yellow);
+        }
+
+        .footer {
+            background-color: var(--background);
+            color: var(--foreground-alt);
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid var(--primary-dark);
+        }
