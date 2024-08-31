@@ -311,14 +311,18 @@
     </div>
 
 
-    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <h3>Required packages for LaTeX</h3>
 
     <p>The LaTeX code above will compile with PDFLaTeX so long as you have the appropriate packages installed.
     </p>
 
-    <button class="collapsible">>>Click here to see required packages</button>
+    <button class="collapsible">>> Click here to see required packages</button>
     <div class="content">
         <div class="output-container">
             <div id="latexPreamble" class="output">
@@ -331,6 +335,10 @@
             <button class="copy-button" onclick="copyToClipboard('latexPreamble')">Copy</button>
         </div>
     </div>
+
+    <h3>Unsupported LaTeX characters</h3>
+
+    <p>LaTeX capital wynn Ƿ and yogh Ȝ are not widely supported in PDFLaTeX. This keyboard will revert those to lower case if you enter them.</p>
 
 
 
@@ -403,30 +411,31 @@
         }
 
         function convertToLatex(input) {
-            input=input.replace(/Ð/g,'\\DH\{\}');
-            input=input.replace(/ð/g, '\\dh\{\}');
-            input=input.replace(/Þ/g,'\\TH\{\}');
-            input=input.replace(/þ/g, '\\th\{\}');
-            input=input.replace(/Æ/g, '\\AE\{\}'); 
-            input=input.replace(/æ/g, '\\ae\{\}');
-            input=input.replace(/Ƿ/g,'\\textwynn\{\}'); //I don't know how to get a capital wynn in PDFLaTeX, so I'm just reverting to the lower case.
-            input=input.replace(/ƿ/g,'\\textwynn\{\}');
-            input=input.replace(/Ȝ/g, '\\textyogh\{\}')// similarly for yogh
-            input=input.replace(/ȝ/g,'\\textyogh\{\}');
-            input=input.replace(/Ā/g,'\\=A\{\}');
-            input=input.replace(/ā/g,'\\=a\{\}');
-            input=input.replace(/Ǣ/g,'\\=\\AE\{\}');
-            input=input.replace(/ǣ/g, '\\=\\ae\{\}');
-            input=input.replace(/Ē/g, '\\=E\{\}');
-            input=input.replace(/ē/g, '\\=e\{\}');
-            input=input.replace(/Ī/g, '\\=I\{\}');
-            input=input.replace(/ī/g, '\\=\\i\{\}');
-            input=input.replace(/Ō/g, '\\=O\{\}');
-            input=input.replace(/ō/g, '\\=ō\{\}');
-            input=input.replace(/Ū/g, '\\=U\{\}');
-            input=input.replace(/ū/g, '\\=u\{\}');
-            input=input.replace(/Ȳ/g, '\\=Y\{\}');
-            input=input.replace(/ȳ/g, '\\=y\{\}');
+            input=input.replace(/Ð/g,'\\DH ');
+            input=input.replace(/ð/g, '\\dh ');
+            input=input.replace(/Þ/g,'\\TH ');
+            input=input.replace(/þ/g, '\\th ');
+            input=input.replace(/Æ/g, '\\AE '); 
+            input=input.replace(/æ/g, '\\ae ');
+            input=input.replace(/Ƿ/g,'\\textwynn '); //I don't know how to get a capital wynn in PDFLaTeX, so I'm just reverting to the lower case.
+            input=input.replace(/ƿ/g,'\\textwynn ');
+            input=input.replace(/Ȝ/g, '\\textyogh ')// similarly for yogh
+            input=input.replace(/ȝ/g,'\\textyogh ');
+            input=input.replace(/Ā/g,'\\=A ');
+            input=input.replace(/ā/g,'\\=a ');
+            input=input.replace(/Ǣ/g,'\\=\\AE ');
+            input=input.replace(/ǣ/g, '\\=\\ae ');
+            input=input.replace(/Ē/g, '\\=E ');
+            input=input.replace(/ē/g, '\\=e ');
+            input=input.replace(/Ī/g, '\\=I ');
+            input=input.replace(/ī/g, '\\=\\i ');
+            input=input.replace(/Ō/g, '\\=O ');
+            input=input.replace(/ō/g, '\\=ō ');
+            input=input.replace(/Ū/g, '\\=U ');
+            input=input.replace(/ū/g, '\\=u ');
+            input=input.replace(/Ȳ/g, '\\=Y ');
+            input=input.replace(/ȳ/g, '\\=y ');
+            // input=input.replace(/\s/g, ' ');
             // input=input.return(//g,, '');
             return input;
         }
