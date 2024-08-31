@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+ <!-- Ian L. Kirby, 2024 . -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Old English (Anglo-Saxon), Middle English, Early Modern English Special Characters</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-top: 50px;
+            margin-bottom:50px;
+            margin-left:5%;
+            margin-right:5%;
+            padding-left:10%;
+            padding-right:10%;
+        }
+        .button-container {
+            margin-top:5px;
+            margin-bottom: 10px;
+            padding-left:0%;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 20px;
+            font-size:large;
+        }
+        .output-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .output {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            min-height: 50px;
+            white-space: pre-wrap; /* Ensures that the text keeps the same formatting */
+        }
+            .button-wrapper {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+        .alt-input {
+            display: block;
+            font-size: 12px;
+            color: gray;
+            margin-top: 5px;
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .copy-button:active {
+            background-color: #45a049;
+        }
+        h1{
+            font-size: x-large;
+            margin-bottom: 5%;
+        }
+        h2{
+            font-size: large;
+        }
+            .alt-input {
+            font-family: 'Courier New', Courier, monospace;
+            color:darkred;
+        }
+        .collapsible {
+            background-color: #f9f9f9;
+            color: black;
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: medium;
+        }
+
+        .collapsible:after {
+            /* content: '; Unicode character for down arrow */
+            font-size: medium;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .collapsible.active:after {
+            /* content: "\\25B2"; Unicode character for up arrow */
+        }
+
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+
+        .output-container {
+            position: relative;
+            margin-top: 10px;
+        }
+
+        .output {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            min-height: 50px;
+            white-space: pre-wrap; /* Keeps the text formatting */
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .copy-button:active {
+            background-color: #45a049;
+        }
+        /* span . */
+    </style>
+</head>
+<body>
+
+    <h1 id="#a">Old and Middle English Keyboard with LaTeX Output</h1>
+      
+    <p>
+        This is a really basic keyboard for typing characters used in Old English (Anglo-Saxon), Middle English, as well as some Early Modern English.
+    </p>
+
+    <br>
+
+    <!-- <div class="button-container">
+        <button onclick="insertCharacter('Ð')" aria-label="insert Ð">Ð</button>
+        <button onclick="insertCharacter('ð')" aria-label="insert ð">ð</button>
+        <button onclick="insertCharacter('Þ')"aria-label="insert Þ">Þ</button>
+        <button onclick="insertCharacter('þ')"aria-label="insert þ">þ</button>
+        <button onclick="insertCharacter('Æ')"aria-label="insert Æ">Æ</button>
+        <button onclick="insertCharacter('æ')" aria-label="insert æ">æ</button>
+        <button onclick="insertCharacter('Ƿ')" aria-label="insert Ƿ">Ƿ</button>
+        <button onclick="insertCharacter('ƿ')" aria-label="insert ƿ">ƿ</button>
+        <button onclick="insertCharacter('Ȝ')" aria-label="insert Ȝ">Ȝ</button>
+        <button onclick="insertCharacter('ȝ')" aria-label="insert ȝ">ȝ</button>
+    </div> -->
+
+    
+    <!-- <div class="button-container">
+        <button onclick="insertCharacter('Ā')" aria-label="insert Ā">Ā</button>
+        <button onclick="insertCharacter('ā')" aria-label="insert ā">ā</button>
+        <button onclick="insertCharacter('Ǣ')" aria-label="insert Ǣ">Ǣ</button>
+        <button onclick="insertCharacter('ǣ')" aria-label="insert ǣ">ǣ</button>
+        <button onclick="insertCharacter('Ē')" aria-label="insert Ē">Ē</button>
+        <button onclick="insertCharacter('ē')" aria-label="insert ē">ē</button>
+        <button onclick="insertCharacter('Ī')" aria-label="insert Ī">Ī</button>
+        <button onclick="insertCharacter('ī')" aria-label="insert ī">ī</button>
+        <button onclick="insertCharacter('Ō')" aria-label="insert Ō">Ō</button>
+        <button onclick="insertCharacter('ō')" aria-label="insert ō">ō</button>
+        <button onclick="insertCharacter('Ū')" aria-label="insert Ū">Ū</button>
+        <button onclick="insertCharacter('ū')" aria-label="insert ū">ū</button>
+        <button onclick="insertCharacter('Ȳ')" aria-label="insert Ȳ">Ȳ</button>
+        <button onclick="insertCharacter('ȳ')" aria-label="insert ȳ">ȳ</button>
+    </div> -->
+
+    <div class="button-container">
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ð')">Ð</button>
+            <span class="alt-input">+D</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ð')">ð</button>
+            <span class="alt-input">+ð</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Þ')">Þ</button>
+            <span class="alt-input">+T</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('þ')">þ</button>
+            <span class="alt-input">+t</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Æ')">Æ</button>
+            <span class="alt-input">+A</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('æ')">æ</button>
+            <span class="alt-input">+a</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ǣ')">Ǣ</button>
+            <span class="alt-input">=+A</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ǣ')">ǣ</button>
+            <span class="alt-input">=+a</span>
+        </div>
+        <!-- Add more button-wrapper divs as needed -->
+    </div>
+    
+    <div class="button-container">
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ā')" aria-label="insert Ā">Ā</button>
+            <span class="alt-input">=A</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ā')" aria-label="insert ā">ā</button>
+            <span class="alt-input">=a</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ǣ')" aria-label="insert Ǣ">Ǣ</button>
+            <span class="alt-input">=+A</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ǣ')" aria-label="insert ǣ">ǣ</button>
+            <span class="alt-input">=+a</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ē')" aria-label="insert Ē">Ē</button>
+            <span class="alt-input">=E</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ē')" aria-label="insert ē">ē</button>
+            <span class="alt-input">=e</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ī')" aria-label="insert Ī">Ī</button>
+            <span class="alt-input">=I</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ī')" aria-label="insert ī">ī</button>
+            <span class="alt-input">=i</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ō')" aria-label="insert Ō">Ō</button>
+            <span class="alt-input">=O</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ō')" aria-label="insert ō">ō</button>
+            <span class="alt-input">=o</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ū')" aria-label="insert Ū">Ū</button>
+            <span class="alt-input">=U</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ū')" aria-label="insert ū">ū</button>
+            <span class="alt-input">=u</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('Ȳ')" aria-label="insert Ȳ">Ȳ</button>
+            <span class="alt-input">=Y</span>
+        </div>
+        <div class="button-wrapper">
+            <button onclick="insertCharacter('ȳ')" aria-label="insert ȳ">ȳ</button>
+            <span class="alt-input">=y</span>
+        </div>
+    </div>
+    
+
+
+    <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+
+    <p style="margin-bottom:10px;"></p>
+
+    <h2>Text Output</h2>
+    <div class="output-container">
+        <div id="utf8Output" class="output"></div>
+        <button class="copy-button" onclick="copyToClipboard('utf8Output')">Copy</button>
+    </div>
+
+    <h2>LaTeX Output</h2>
+    <div class="output-container">
+        <div id="latexOutput" class="output"></div>
+        <button class="copy-button" onclick="copyToClipboard('latexOutput')">Copy</button>
+    </div>
+
+
+    
+
+    <h3>Required packages for LaTeX</h3>
+
+    <p>The LaTeX code above will compile with PDFLaTeX so long as you have the appropriate packages installed.
+    </p>
+
+    <button class="collapsible">���Click here to see required packages</button>
+    <div class="content">
+        <div class="output-container">
+            <div id="latexPreamble" class="output">
+    \usepackage{mathptmx} % Times font, supports a large amount of extended symbols.
+    
+    \usepackage[utf8]{inputenc} % for (more) reliable encoding of output
+    \usepackage[T1]{fontenc} % Adds a lot of font support; Only compatible with PDFLaTeX
+    \usepackage{tipa} % Gives you \textwynn, textyogh
+            </div>
+            <button class="copy-button" onclick="copyToClipboard('latexPreamble')">Copy</button>
+        </div>
+    </div>
+
+
+
+    <br>
+    <hr>
+    <br>
+
+    <script>
+        // This is the first version, without cursor tracking.
+        // function insertCharacter(char) {
+        //     const inputElement = document.getElementById('inputText');
+        //     inputElement.value += char;
+        //     updateOutputs();
+        // }
+
+        // This is the second version, with cursor tracking. 
+        function insertCharacter(char) {
+            const inputElement = document.getElementById('inputText');
+            const startPos = inputElement.selectionStart;
+            const endPos = inputElement.selectionEnd;
+
+            // Insert the character at the cursor position
+            inputElement.value = inputElement.value.substring(0, startPos) + char + inputElement.value.substring(endPos);
+
+            // Restore the cursor position after the inserted character
+            const newPos = startPos + char.length;
+            inputElement.selectionStart = newPos;
+            inputElement.selectionEnd = newPos;
+
+            // Update the outputs
+            updateOutputs();
+
+            // Focus the input element to keep the cursor visible
+            inputElement.focus();
+}
+
+
+        function filterText(input) {
+            // These two have to go first.
+            input=input.replace(/\=\+A/g,'Ǣ');
+            input=input.replace(/\=\+a/g,'ǣ');
+            input=input.replace(/\+D/g,'Ð');
+            input=input.replace(/\+ð/g,'ð');
+            input=input.replace(/\+T/g,'Þ');
+            input=input.replace(/\+t/g, 'þ');
+            input=input.replace(/\+A/g,'Æ');
+            input=input.replace(/\+a/g, 'æ');
+            input=input.replace(/\+W/,'Ƿ'); 
+            input=input.replace(/\+w/g,'ƿ');
+            input=input.replace(/\=A/g,'Ā');
+            input=input.replace(/\=a/g,'ā');
+            input=input.replace(/\=E/g,'Ē');
+            input=input.replace(/\=e/g,'ē');
+            input=input.replace(/\=I/g,'Ī');
+            input=input.replace(/\=i/g,'ī');
+            input=input.replace(/\=\i/g,'ī'); // In case anybody is used to actually typing this in LaTeX, wherein you have to avoid the dot.
+            input=input.replace(/\=O/g,'Ō');
+            input=input.replace(/\=o/g,'ō');
+            input=input.replace(/\=U/g,'Ū');
+            input=input.replace(/\=u/g,'ū');
+            input=input.replace(/\=Y/g,'Ȳ');
+            input=input.replace(/\=y/g,'ȳ');
+
+            // Extra buttons in case I want to add anything
+            // input=input.replace(/ /g,'');
+            // input=input.replace(/ /g,'');
+            // input=input.replace(/ /g,'');
+
+            return input;
+        }
+
+        function convertToLatex(input) {
+            input=input.replace(/Ð/g,'\\DH\{\}');
+            input=input.replace(/ð/g, '\\dh\{\}');
+            input=input.replace(/Þ/g,'\\TH\{\}');
+            input=input.replace(/þ/g, '\\th\{\}');
+            input=input.replace(/Æ/g, '\\AE\{\}'); 
+            input=input.replace(/æ/g, '\\ae\{\}');
+            input=input.replace(/Ƿ/g,'\\textwynn\{\}'); //I don't know how to get a capital wynn in PDFLaTeX, so I'm just reverting to the lower case.
+            input=input.replace(/ƿ/g,'\\textwynn\{\}');
+            input=input.replace(/Ȝ/g, '\\textyogh\{\}')// similarly for yogh
+            input=input.replace(/ȝ/g,'\\textyogh\{\}');
+            input=input.replace(/Ā/g,'\\=A\{\}');
+            input=input.replace(/ā/g,'\\=a\{\}');
+            input=input.replace(/Ǣ/g,'\\=\\AE\{\}');
+            input=input.replace(/ǣ/g, '\\=\\ae\{\}');
+            input=input.replace(/Ē/g, '\\=E\{\}');
+            input=input.replace(/ē/g, '\\=e\{\}');
+            input=input.replace(/Ī/g, '\\=I\{\}');
+            input=input.replace(/ī/g, '\\=\\i\{\}');
+            input=input.replace(/Ō/g, '\\=O\{\}');
+            input=input.replace(/ō/g, '\\=ō\{\}');
+            input=input.replace(/Ū/g, '\\=U\{\}');
+            input=input.replace(/ū/g, '\\=u\{\}');
+            input=input.replace(/Ȳ/g, '\\=Y\{\}');
+            input=input.replace(/ȳ/g, '\\=y\{\}');
+            // input=input.return(//g,, '');
+            return input;
+        }
+
+        function updateOutputs() {
+            const inputElement = document.getElementById('inputText').value;
+            const filteredText = filterText(inputElement);
+            const latexText = convertToLatex(filteredText);
+            
+            document.getElementById('utf8Output').innerText = filteredText;
+            document.getElementById('latexOutput').innerText = latexText;
+        }
+
+        function copyToClipboard(elementId) {
+            const text = document.getElementById(elementId).innerText;
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Copied to clipboard!');
+            }, function(err) {
+                alert('Failed to copy: ', err);
+            });
+        }
+
+        document.getElementById('inputText').addEventListener('input', updateOutputs);
+    </script>
+
+    <script>  document.querySelector('.collapsible').addEventListener('click', function() {
+        this.classList.toggle('active');
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
+
+    function copyToClipboard(elementId) {
+        const text = document.getElementById(elementId).innerText;
+        navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+        }, function(err) {
+            alert('Failed to copy: ', err);
+        });
+    }</script>
+
+
+<footer>
+    &copy; 2024, <a href="https://iankirby.github.io">Ian L. Kirby</a>. All Rights Reserved.
+</footer>
+
+</body>
+</html>
+
