@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Type Old English (Anglo-Saxon), Middle English, Early Modern English Special Characters</title>
+    <title>Old, Middle English Keyboard with LaTeX Output</title>
     <style>
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -212,6 +212,24 @@
             <button onclick="insertCharacter('ǣ')">ǣ</button>
             <span class="alt-input">=+a</span>
         </div>
+    <div class="button-wrapper">
+        <button onclick="insertCharacter('Ƿ')" aria-label="insert Ƿ">Ƿ</button>
+        <span class="alt-input">+W</span>
+    </div>
+    <div class="button-wrapper">
+        <button onclick="insertCharacter('ƿ')" aria-label="insert ƿ">ƿ</button>
+        <span class="alt-input">+w</span>
+    </div>
+    <div class="button-wrapper">
+        <button onclick="insertCharacter('Ȝ')" aria-label="insert Ȝ">Ȝ</button>
+        <span class="alt-input">+Y</span>
+    </div>
+    <div class="button-wrapper">
+        <button onclick="insertCharacter('ȝ')" aria-label="insert ȝ">ȝ</button>
+        <span class="alt-input">+y</span>
+    </div>
+    </div>
+        
         <!-- Add more button-wrapper divs as needed -->
     </div>
     
@@ -276,7 +294,7 @@
     
 
 
-    <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+    <textarea id="inputText" placeholder="Hwæt! Enter þine text here ..."></textarea>
 
     <p style="margin-bottom:10px;"></p>
 
@@ -300,7 +318,7 @@
     <p>The LaTeX code above will compile with PDFLaTeX so long as you have the appropriate packages installed.
     </p>
 
-    <button class="collapsible">���Click here to see required packages</button>
+    <button class="collapsible">>>Click here to see required packages</button>
     <div class="content">
         <div class="output-container">
             <div id="latexPreamble" class="output">
