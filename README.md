@@ -1,8 +1,8 @@
 # iankirby.github.io
 
-This repository mainly files I've linked on [my website](https://iankirby.github.io/), but it also contains copies of some resources I thought would be useful for others. You can contact me at ian@ilkirby.com for feedback, issues, or suggestions.
+This repository stores documents and files for [my website](https://iankirby.github.io).
 
-# Resources
+<!-- # Resources
 
 ## Sakha
 
@@ -14,4 +14,4 @@ This repository mainly files I've linked on [my website](https://iankirby.github
 
 ## Wiktionary tools (in progress)
 
-- [Wiktionary sorting tools](gitlab-resources/wiktionary/wiktionary.md), tools for searching Wiktionary.
+- [Wiktionary sorting tools](gitlab-resources/wiktionary/wiktionary.md), tools for searching Wiktionary. -->
